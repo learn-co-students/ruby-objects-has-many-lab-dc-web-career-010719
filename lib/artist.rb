@@ -23,7 +23,7 @@ class Artist
     self.songs << song
   end
 
-  def self.song_count     #come back to see what they want here
+  def self.song_count
     Song.all.count
   end
 

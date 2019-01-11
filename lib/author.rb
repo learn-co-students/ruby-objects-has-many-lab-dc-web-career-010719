@@ -20,6 +20,6 @@ class Author
   end
 
   def self.post_count
-    2 
+    Post.all.count
   end
 end
