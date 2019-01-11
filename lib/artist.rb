@@ -24,11 +24,7 @@ class Artist
   end
 
   def self.song_count     #come back to see what they want here
-    # binding.pry
-    @@all_artists.map do |artist|
-      artist.songs.size
-    end
-    2
+    Song.all.count
   end
 
 
